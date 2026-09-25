@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Home</title>
+	</head>
+	<body>
+		<h1>Home</h1>
+		<ul>
+			<li><a href="/about">/about</a> — clean path, works</li>
+			<li><a href="/en">/en</a> — rewritten to <code>/</code> by middleware, but returns 404</li>
+			<li><a href="/en/about">/en/about</a> — rewritten to <code>/about</code> by middleware, but returns 404</li>
+		</ul>
+	</body>
+</html>
